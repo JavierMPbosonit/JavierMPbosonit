@@ -1,0 +1,8 @@
+Capítulo 2
+a. Descargar el Quijote https://gist.github.com/jsdario/6d6c69398cb0c73111e49f1218960f79
+Aplicar no solo count (para obtener el número de líneas) y show sino probar distintas sobrecargas del método show (con/sin truncate, indicando/sin indicar num de filas, etc) así como también los métodos, head, take, first (diferencias entre estos 3?)
+b. Del ejercicio de M&M aplicar:
+	i. Otras operaciones de agregación como el Max con otro tipo de ordenamiento (descendiente).
+	ii. hacer un ejercicio como el “where” de CA que aparece en el libro pero indicando más opciones de estados (p.e. NV, TX, CA, CO).
+	iii. Hacer un ejercicio donde se calculen en una misma operación el Max, Min, Avg, Count. Revisar el API (documentación) donde encontrarán este ejemplo: ds.agg(max($"age"), avg($"salary")) ds.groupBy().agg(max($"age"), avg($"salary")) NOTA: $ es un alias de col()
+	iv. Hacer también ejercicios en SQL creando tmpView
