@@ -1,0 +1,8 @@
+Capítulo 5
+a. Realizar todos los ejercicios propuestos de libro (excepto los de hive en caso de utilizar spark instalado en local y en el caso de RDBMS hacer únicamente ejemplo especificado más adelante)
+b. Pros y Cons utilizar UDFs
+c. Instalar MySQL, descargar driver y cargar datos de BBDD de empleados https://dev.mysql.com/doc/employee/en/
+	i. Cargar con spark datos de empleados y departamentos
+	ii. Mediante Joins mostrar toda la información de los empleados además de su título y salario.
+	iii. Diferencia entre Rank y dense_rank (operaciones de ventana)
+	iv. Utilizando operaciones de ventana obtener el salario, posición (cargo) y departamento actual de cada empleado, es decir, el último o más reciente
